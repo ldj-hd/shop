@@ -1,0 +1,20 @@
+{
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "usingComponents": {
+    "w-menu": "./childCpns/w-menu/w-menu",
+    "w-content": "./childCpns/w-content/w-content"
+  },
+  "navigationBarTitleText": "商品分类"
+=======
+=======
+>>>>>>> 8852b26149ab07bc4c66ddb5d8bafa89d287e5f3
+  "usingComponents": {},
+  "navigationBarTitleText": "商品分类",
+  "navigationBarBackgroundColor": "#ff0000",
+  "enablePullDownRefresh": true
+<<<<<<< HEAD
+>>>>>>> 8852b26149ab07bc4c66ddb5d8bafa89d287e5f3
+=======
+>>>>>>> 8852b26149ab07bc4c66ddb5d8bafa89d287e5f3
+}

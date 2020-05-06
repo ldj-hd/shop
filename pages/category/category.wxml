@@ -1,0 +1,17 @@
+<!--pages/category/category.wxml-->
+<<<<<<< HEAD
+<<<<<<< HEAD
+<view class='category'>
+  <w-menu categories="{{categories}}"
+          bind:menuclick="menuClick"/>
+  <w-content subcategories="{{categoryData[currentIndex].subcategories}}"
+             categoryDetail="{{categoryData[currentIndex].categoryDetail}}"/>
+</view>
+=======
+<text>pages/category/category.wxml</text>
+<view>我是分类</view>
+>>>>>>> 8852b26149ab07bc4c66ddb5d8bafa89d287e5f3
+=======
+<text>pages/category/category.wxml</text>
+<view>我是分类</view>
+>>>>>>> 8852b26149ab07bc4c66ddb5d8bafa89d287e5f3

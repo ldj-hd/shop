@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+/* pages/profile/profile.wxss */
+.profile {
+  height: 100%;
+  /* background: #f8f8f8; */
+}
+=======
+/* pages/profile/profile.wxss */
+>>>>>>> 8852b26149ab07bc4c66ddb5d8bafa89d287e5f3
+=======
+/* pages/profile/profile.wxss */
+>>>>>>> 8852b26149ab07bc4c66ddb5d8bafa89d287e5f3

@@ -1,0 +1,16 @@
+{
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "usingComponents": {
+    "w-header": "./childCpns/w-header/w-header",
+    "w-info": "./childCpns/w-info/w-info",
+    "w-list-view": "./childCpns/w-list-view/w-list-view"
+  },
+  "navigationBarTitleText": "我的信息"
+=======
+  "usingComponents": {}
+>>>>>>> 8852b26149ab07bc4c66ddb5d8bafa89d287e5f3
+=======
+  "usingComponents": {}
+>>>>>>> 8852b26149ab07bc4c66ddb5d8bafa89d287e5f3
+}

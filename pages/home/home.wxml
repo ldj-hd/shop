@@ -1,0 +1,36 @@
+<!--pages/home/home.wxml-->
+<<<<<<< HEAD
+<!-- 展示轮播图 -->
+<w-swiper list="{{banners}}"/>
+<!-- 推荐数据的展示 -->
+<w-recommend recommends="{{recommends}}" bind:imageload="handleImageIoad"/>
+<!-- 展示本周流行 -->
+<w-popular/>
+<w-tab-control titles="{{titles}}"
+    bind:tabclick="handleTabClick"
+    id="tab-control"
+    class="{{isTabFixed ? 'fixed' : ''}}"/>
+<w-tab-control titles="{{titles}}" wx:if="{{isTabFixed}}"/>
+
+<!-- 展示商品数据 -->
+<w-goods goods="{{goods[currentType].list}}"/>
+<!-- 回到顶部 -->
+<!-- hidden属性对于自定义的组件是无效的 -->
+<w-back-top wx:if="{{showBackTop}}"/>
+=======
+<text class="title">hello world</text>
+<button size="mini">按钮</button>
+
+<button size="mini"
+open-type="getUserInfo"
+bindgetuserinfo="handleGetUserInfo">
+获取授权
+</button>
+<!-- 展示用户信息 -->
+<open-data type="userNickName"></open-data>
+<<<<<<< HEAD
+,<view bindtap="handleViewClick">{{message}}</view>
+>>>>>>> 8852b26149ab07bc4c66ddb5d8bafa89d287e5f3
+=======
+,<view bindtap="handleViewClick">{{message}}</view>
+>>>>>>> 8852b26149ab07bc4c66ddb5d8bafa89d287e5f3

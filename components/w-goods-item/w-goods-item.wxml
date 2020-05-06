@@ -1,0 +1,16 @@
+<!--components/w-goods-item/w-goods-item.wxml-->
+<!-- <text>components/w-goods-item/w-goods-item.wxml</text> -->
+<!-- <view>{{item.title}}</view> -->
+<view class="goods-item">
+<!-- /* 缩放模式，宽度不变，高度自动变化，保持原图宽高比不变 */ -->
+  <image src="{{item.show.img}}" mode="widthFix" class="image"></image>
+  <view class="desc-info">
+    <view class="title">{{item.title}}</view>
+    <view class="info">
+      <text class="price">￥{{item.price}}</text>
+      <image src="/assets/common/favor.png" class="icon"></image>
+      <text class="cfav">{{item.cfav}}</text>
+    </view>
+  </view>
+</view>
+
